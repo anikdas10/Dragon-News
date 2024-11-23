@@ -2,7 +2,6 @@ import { Outlet } from "react-router-dom";
 import Header from "../components/Header";
 import LatestNews from "../components/LatestNews";
 import LeftNavbar from "../components/layout-componenet/LeftNavbar";
-import MainContent from "../components/layout-componenet/MainContent";
 import RightNavbar from "../components/layout-componenet/RightNavbar";
 import NavBar from "../components/NavBar";
 
