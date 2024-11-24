@@ -5,12 +5,15 @@ import CategoryNews from "../components/CategoryNews/CategoryNews";
 import AuthLayout from "../layouts/AuthLayout";
 import Login from "../components/Login";
 import Register from "../components/Register";
+import PrivateRoute from "./PrivateRoute";
 
 
 const router = createBrowserRouter([
     {
       path:'/',
-      element:<HomeLayout></HomeLayout>,
+      element:<PrivateRoute>
+        <HomeLayout></HomeLayout>
+      </PrivateRoute>,
       children:[
         {
             path:"",
